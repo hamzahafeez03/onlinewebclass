@@ -51,6 +51,11 @@ height: 20px;
 
 nav{
     background-color: #F6F6F6;
+    position: sticky;
+    top: 0;
+    background-color: whitesmoke;
+    padding: 0 0 5px 0;
+    z-index: 1;
     
 }
 
@@ -129,9 +134,7 @@ box-shadow: 10px 10px 8px #888888;
     margin-top: 06px;
 }
 
-.socil{
-    margin-left: 100px;
-}
+
 
 .lab{
     margin-left: -100px;
@@ -143,8 +146,6 @@ box-shadow: 10px 10px 8px #888888;
 }
 
 .marqueee{
-    text-align: center;
-    margin-left: 140px;
     background-color: royalblue;
 }
 
@@ -198,6 +199,9 @@ footer{
     background-color: white;
     font-size: 12px;
     height: 30px;
+    border: none;
+    cursor: pointer;
+    font-family: OpenSans;
 }
 
 .innerr{
@@ -211,7 +215,6 @@ footer{
 
 .sp{
     color: white;
-    margin-left: 30px;
 }
 
 
